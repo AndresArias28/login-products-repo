@@ -1,16 +1,16 @@
-\# Mi Aplicación
+# Mi Aplicación
 
 Una aplicación web completa con frontend React y backend Express que incluye autenticación JWT, middleware de protección y base de datos SQL.
 
-\## Descripción General
+## Descripción General
 
 Esta aplicación está construida con una arquitectura moderna de stack completo que utiliza React para el frontend y Express para el backend, conectados mediante una API RESTful. Implementa un sistema de autenticación seguro basado en JSON Web Tokens (JWT) y utiliza Sequelize como ORM para interactuar con una base de datos SQL.
 
-\## Estructura del Proyecto
+## Estructura del Proyecto
 
 El proyecto está dividido en dos partes principales:
 
-\```
+```
 
 mi-aplicacion/
 
@@ -18,9 +18,9 @@ mi-aplicacion/
 
 └── server/     # Backend (Express + SQL + Sequelize)
 
-\```
+```
 
-\## Tecnologías Frontend
+## Tecnologías Frontend
 
 - \*\*React\*\*: Biblioteca para construir interfaces de usuario
 - \*\*Vite\*\*: Herramienta de compilación rápida para desarrollo
@@ -29,7 +29,7 @@ mi-aplicacion/
 - \*\*React Router\*\*: Manejo de navegación entre páginas
 - \*\*JWT-Decode\*\*: Decodificación de tokens JWT
 
-\## Tecnologías Backend
+## Tecnologías Backend
 
 - \*\*Express\*\*: Framework web para Node.js
 - \*\*Sequelize\*\*: ORM para bases de datos SQL
@@ -37,7 +37,7 @@ mi-aplicacion/
 - \*\*bcrypt\*\*: Encriptación de contraseñas
 - \*\*Middleware personalizado\*\*: Protección de rutas
 
-\## Características
+## Características
 
 - \*\*Autenticación de usuarios\*\*: Sistema completo de registro e inicio de sesión
 - \*\*Protección de rutas\*\*: Middleware para verificar autenticación en rutas protegidas
@@ -45,9 +45,9 @@ mi-aplicacion/
 - \*\*Diseño responsive\*\*: Interfaz adaptable a diferentes dispositivos
 - \*\*Operaciones CRUD\*\*: Manejo completo de datos con la base de datos
 
-\## Instalación y Configuración
+## Instalación y Configuración
 
-\### Requisitos previos
+### Requisitos previos
 
 - Node.js (v14 o superior)
 - NPM o Yarn
