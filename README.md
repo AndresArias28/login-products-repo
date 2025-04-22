@@ -53,57 +53,57 @@ mi-aplicacion/
 - NPM o Yarn
 - Base de datos SQL (MySQL, PostgreSQL, etc.)
 
-\### Pasos para el frontend
+### Pasos para el frontend
 
-\```bash
+```bash
 
-\# Navegar al directorio del cliente
+# Navegar al directorio del cliente
 
 cd client
 
-\# Instalar dependencias
+# Instalar dependencias
 
 npm install
 
-\# Iniciar servidor de desarrollo
+# Iniciar servidor de desarrollo
 
 npm run dev
 
-\```
+```
 
 \### Pasos para el backend
 
-\```bash
+```bash
 
-\# Navegar al directorio del servidor
+# Navegar al directorio del servidor
 
 cd server
 
-\# Instalar dependencias
+# Instalar dependencias
 
 npm install
 
-\# Configurar variables de entorno
+# Configurar variables de entorno
 
-\# Crear archivo .env con las siguientes variables:
+# Crear archivo .env con las siguientes variables:
 
-\# DB\_NAME=nombre\_db
+# DB\_NAME=nombre\_db
 
-\# DB\_USER=usuario\_db
+# DB\_USER=usuario\_db
 
-\# DB\_PASSWORD=contraseña\_db
+# DB\_PASSWORD=contraseña\_db
 
-\# DB\_HOST=localhost
+# DB\_HOST=localhost
 
-\# JWT\_SECRET=tu\_clave\_secreta\_jwt
+# JWT\_SECRET=tu\_clave\_secreta\_jwt
 
-\# Iniciar servidor
+# Iniciar servidor
 
 npm start
 
-\```
+```
 
-\## Flujo de Autenticación
+## Flujo de Autenticación
 
 1. El usuario se registra o inicia sesión a través del frontend
 1. El backend valida las credenciales y genera un token JWT
@@ -111,33 +111,33 @@ npm start
 1. Las solicitudes posteriores incluyen el token en la cabecera de autorización
 1. El middleware del servidor verifica la validez del token antes de permitir el acceso a recursos protegidos
 
-\## Estructura de la Base de Datos
+## Estructura de la Base de Datos
 
 La aplicación utiliza Sequelize para definir y manipular los siguientes modelos:
 
 - \*\*Usuario\*\*: Almacena información de usuarios y credenciales
 - \*\*[Otros modelos específicos de la aplicación]\*\*
 
-\## API Endpoints
+## API Endpoints
 
-\### Autenticación
+### Autenticación
 
 - `POST /api/auth/register`: Registro de nuevos usuarios
 - `POST /api/auth/login`: Inicio de sesión y generación de token
 - `GET /api/auth/profile`: Obtener perfil de usuario (protegido)
 
-\### [Otros endpoints específicos de la aplicación]
+### [Otros endpoints específicos de la aplicación]
 
-\## Desarrollo
+## Desarrollo
 
-\### Comandos útiles
+### Comandos útiles
 
 - `npm run dev`: Inicia el servidor de desarrollo (cliente)
 - `npm run build`: Construye la aplicación para producción (cliente)
 - `npm start`: Inicia el servidor backend
 - `npm run seed`: Inicializa la base de datos con datos de ejemplo
 
-\## Despliegue
+## Despliegue
 
 La aplicación está preparada para ser desplegada en cualquier servicio de hosting que soporte Node.js, como:
 
@@ -147,7 +147,7 @@ La aplicación está preparada para ser desplegada en cualquier servicio de host
 - AWS
 - DigitalOcean
 
-\## Contribuciones
+## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
@@ -157,6 +157,6 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 1. Haz push a la rama (`git push origin feature/amazing-feature`)
 1. Abre un Pull Request
 
-\## Licencia
+## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
